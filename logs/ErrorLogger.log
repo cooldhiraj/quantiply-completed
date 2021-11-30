@@ -1,0 +1,16 @@
+Tue Nov 30 2021 - Error: Error in downloading images
+    at Object.apod.downloadImages (C:\Users\wel\Downloads\quantiply-prod\services\apod.js:78:17)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async C:\Users\wel\Downloads\quantiply-prod\routes\index.js:79:13
+Tue Nov 30 2021 - Error: Error in downloading images
+    at Object.apod.downloadImages (C:\Users\wel\Downloads\quantiply-prod\services\apod.js:78:17)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async C:\Users\wel\Downloads\quantiply-prod\routes\index.js:79:13
+Tue Nov 30 2021 - Error: Error in downloading images
+    at Object.apod.downloadImages (C:\Users\wel\Downloads\quantiply-prod\services\apod.js:78:17)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async C:\Users\wel\Downloads\quantiply-prod\routes\index.js:79:13
+Tue Nov 30 2021 - Error: Error in downloading images
+    at Object.apod.downloadImages (C:\Users\wel\Downloads\quantiply-prod\services\apod.js:78:17)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async C:\Users\wel\Downloads\quantiply-prod\routes\index.js:79:13

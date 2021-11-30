@@ -1,0 +1,59 @@
+<!doctype html>
+<html>
+<head>
+<title>Astronomy Picture of the Day
+</title> 
+
+<meta name="description" content="A different astronomy and space science
+related image is featured each day, along with a brief explanation.">
+<!-- -->
+<meta name=viewport content="width=device-width, initial-scale=1">
+<meta name="keywords" content="partial lunar eclipse, ple, m45, lunar corona, telescope">
+
+</head>
+
+<body BGCOLOR="#F4F4FF" text="#000000" link="#0000FF" vlink="#7F0F9F"
+alink="#FF0000">
+
+<center>
+<h1> Astronomy Picture of the Day </h1>
+<form action="/" method="get">
+    <label for="date">Select date:</label>
+    <input type="date" id="apod" name="date">
+    <input type="submit">
+</form>
+<p>
+<% const month = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12] %>
+<%= new Date(parseInt(data.date)).getFullYear() + '-' +month[(new Date(parseInt(data.date)).getMonth())] +'-'+ new Date(parseInt(data.date)).getDate() %>
+
+<br> 
+<% if(data.media_type == 'image'){ %>
+    <a href="<%= data.hdurl %>">
+        <img src="<%= data.url %>" alt="See Explanation.  Clicking on the picture will download the highest resolution version available." style="max-width:100%">
+    </a>
+ <% }else{ %>
+    <iframe width="90%" height="500" src="<%= data.url %>">
+    </iframe>
+<% } %>
+
+</center>
+
+<center>
+<b> <%= data.title%> </b> <br> 
+
+<b>Image Credit &
+<a href="#">Copyright</a>:</b>
+
+<a href="#"><%= data.copyright %></a>
+
+</center> <p> 
+
+<b> Explanation: </b> 
+
+<%= data.explanation %>
+
+<p> 
+    
+</body>
+
+</html>
